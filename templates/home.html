@@ -1,0 +1,543 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>IP Adress</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta name="theme-color" content="#111d32">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/ico.ico' %}" rel="icon">
+  <link href="{% static 'assets/img/ico.ico' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.cs' %}s" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PMREVPCD2H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PMREVPCD2H');
+</script>
+
+</head>
+
+<body>
+
+
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+    <div class="container">
+
+      {% if not categories %}
+      <br>
+      <h2 data-aos="fade-up" data-aos-delay="100" style="text-align: center; color:rgb(22, 131, 38); font-weight: 700;">   Registered IP</h2>
+      {% for link in nombre %}
+      {% if link.is_active == True %}
+  
+
+ <p data-aos="fade-up" data-aos-delay="100" style="text-align: center; font-weight: 700;">
+            
+You will be redirected to <span style="font-weight: 700;">{{link.url}}</span>
+{% if link.number == "1" %}
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "2" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "3" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "4" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "5" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "6" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "7" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "8" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "9" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+
+{% endif %}
+
+{% if link.number == "10" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "11" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "12" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "13" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "14" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "15" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "16" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "17" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "18" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+
+{% if link.number == "19" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "20" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+
+{% if link.number == "21" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "22" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "23" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "24" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+{% if link.number == "25" %}
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+<script>window.open("{{link.url}}");</script>
+{% endif %}
+
+   </p>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+      {% for category in categories %}
+      {% if category.name == ip %}
+      
+      <br>
+      <h2 data-aos="fade-up" data-aos-delay="100" style="text-align: center; color:rgb(198, 0, 0); font-weight: 700;">IP already registered</h2>
+
+
+      {% endif %}
+      {% endfor %}
+      <h5 data-aos="fade-up" data-aos-delay="100" style="text-align: center; font-weight: 700;color:white">
+        ({{count}}) Registered IPS </h5>
+        <br>
+        <h5 data-aos="fade-up" data-aos-delay="100" style="text-align: center; font-weight: 700;color:white">
+          ({{countdos}}) Registered Today </h5>
+          <br>
+        
+          <!-- 
+          <p data-aos="fade-up" data-aos-delay="100" style="text-align: center;">We will show the ip of each user and will be redirected</p>-->
+
+       
+            <a href="/admin/" target="_blank">   <button type="button" class="btn btn-primary" style="display: block;margin:auto">Admin</button></a><br>
+          <a href="/table" target="_blank"><button type="button" class="btn btn-danger" style="display: block;margin:auto">Table</button></a> 
+
+
+          <div class="row gy-3" data-aos="fade-up" data-aos-delay="400">
+
+           
+              <div class="stats-item text-center w-100 h-100">
+                <span>{{ip}}</span>
+                <p>IP Address</p>   
+              </div>
+           
+          
+
+            <div class="col-lg-3 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span>{{browser_type}} {{browser_version}}</span>
+                <p>Browser</p>
+              </div>
+            </div><!-- End Stats Item -->
+
+            <div class="col-lg-3 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span>{{os_type}} {{os_version}} - {{ device_type}}</span>
+                <p>OS</p>
+              </div>
+            </div><!-- End Stats Item -->
+            <div class="col-lg-3 col-6">
+                <div class="stats-item text-center w-100 h-100">
+                  <span>{{ location_city }}</span>
+                  <p>City</p>
+                </div>
+              </div><!-- End Stats Item -->
+              <div class="col-lg-3 col-6">
+                <div class="stats-item text-center w-100 h-100">
+                  <span>{{ location_country }}</span>
+                  <p>Country</p>
+                </div>
+              </div><!-- End Stats Item -->
+          </div>
+        </div>
+        <!-- 
+        <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+          <img src="{% static 'assets/img/hero-img.png' %}" class="img-fluid mb-3 mb-lg-0" alt="">
+        </div>
+-->
+      </div>
+    </div>
+
+
+ 
+  </section><!-- End Hero Section -->
+
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+  <!-- 
+<script>
+window.setTimeout(function () {
+    location.href = "http://google.com";
+}, 5000); // refresh/redirect after 5 seconds.
+</script>
+-->
+</body>
+
+</html>
